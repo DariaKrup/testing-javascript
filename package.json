@@ -4,9 +4,8 @@
   "description": "A small little project for learning to test JavaScript",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "mocha && echo \"Please run the tests from the browser.\" && exit 1"
-  },
+    "test": "node test.js"
+  }
   "repository": {
     "type": "git",
     "url": "git+https://github.com/turingschool-examples/testing-javascript.git"
