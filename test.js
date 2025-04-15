@@ -3,13 +3,13 @@ const assert = require('assert');
 const { square } = require('./implementation');
 
 describe('functions.square', function () {
-  describe('1square', function() {
+  describe('1square.one', function() {
     it('returns the square of a number', function() {
       assert.equal(square(2), 4);
     });
   });
   
-  describe('functions.square', function() {
+  describe('2square.second', function() {
     it('returns the square of a number', function() {
       assert.equal(square(3), 9);
     });
