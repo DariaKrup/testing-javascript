@@ -4,7 +4,7 @@
   "description": "A small little project for learning to test JavaScript",
   "main": "server.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
