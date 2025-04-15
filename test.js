@@ -2,7 +2,7 @@
 const assert = require('assert'); 
 const { square } = require('./implementation');
 
-describe('functions.square', function () {
+describe('square', function () {
   describe('1square.one', function() {
     it('returns the square of a number', function() {
       assert.equal(square(2), 4);
