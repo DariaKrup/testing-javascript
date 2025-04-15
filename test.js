@@ -1,6 +1,6 @@
 // Uncomment the following lines to execute `npm test` in your terminal.
-var assert = require('chai').assert;
-var square = require('./implementation');
+const assert = require('assert'); 
+const { square } = require('./implementation');
 
 describe('1square', function() {
   it('returns the square of a number', function() {
