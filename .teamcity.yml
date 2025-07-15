@@ -1,4 +1,8 @@
 jobs:
   Job1:
     name: Job 1
-    steps: []
+    steps:
+      - type: script
+        script-content: npm install
+        docker-image: node:22.14.0
+        name: npm install
