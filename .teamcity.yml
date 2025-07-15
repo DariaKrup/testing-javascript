@@ -6,3 +6,7 @@ jobs:
         script-content: npm install
         docker-image: node:22.14.0
         name: npm install
+      - type: script
+        script-content: npm test test.js
+        name: Test
+        docker-image: node:22.14.0
