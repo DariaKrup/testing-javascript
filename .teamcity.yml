@@ -7,6 +7,8 @@ jobs:
         docker-image: node:22.14.0
         name: npm install
       - type: script
-        script-content: npm test test.js
+        script-content: |-
+          npm install mocha-teamcity-reporter --no-save
+          npm run test -- --reporter mocha-teamcity-reporter
         name: Test
         docker-image: node:22.14.0
