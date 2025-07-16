@@ -127,7 +127,7 @@ convertTime(45);
 => '0:45'
 ```
 
-### FizzBuzz
+### FizzBuzz Class
 
 FizzBuzz is a classic programming program that a lot of programmers [apparently can't do][atwood].
 
