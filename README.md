@@ -1,5 +1,6 @@
 # Introduction to Unit Testing in JavaScript
 
+Welcome!
 ## Installation
 
 First, clone this repository. For this lesson we will be using a repository set up to run Node.js, which means you'll be seeing some commands we haven't discussed that start with `npm`. We aren't going to dig into what this means today, but ultimately it allows us to pull in some powerful tools outside of our basic html/css/js files.
