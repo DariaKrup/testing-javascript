@@ -10,5 +10,5 @@ jobs:
         script-content: |-
           npm install mocha-teamcity-reporter --no-save
           npm run test -- --reporter mocha-teamcity-reporter
-        name: Test
+        name: Tests (test.js)
         docker-image: node:22.14.0
